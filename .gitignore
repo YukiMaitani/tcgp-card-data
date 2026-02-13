@@ -1,0 +1,10 @@
+# 依存
+node_modules/
+
+# カード画像（~600MB以上、jsDelivr CDN配信するならコミット対象だが、
+# ローカル開発中は不要なら除外してCI/手動でpushする運用もあり）
+# images/
+
+# OS
+.DS_Store
+Thumbs.db
